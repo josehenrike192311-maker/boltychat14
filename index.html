@@ -1,0 +1,48 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot IA e Trabalho</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="chat-container">
+
+    <div class="chat-header">
+      <h1>Chatbot IA & Trabalho</h1>
+      <p>Pesquisa sobre Inteligência Artificial, emprego e produtividade</p>
+    </div>
+
+    <div class="chat-box" id="chatBox">
+      <div class="bot-message message">
+        Olá! Sou um chatbot especializado em Inteligência Artificial, relações de trabalho, emprego e produtividade. Faça sua pergunta.
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Digite sua pergunta..."
+      />
+
+      <button onclick="enviarMensagem()">Enviar</button>
+    </div>
+
+    <div class="suggestions">
+      <button onclick="preencherPergunta('O que é IA?')">O que é IA?</button>
+      <button onclick="preencherPergunta('IA e emprego')">IA e emprego</button>
+      <button onclick="preencherPergunta('Produtividade')">Produtividade</button>
+      <button onclick="preencherPergunta('Ética na IA')">Ética na IA</button>
+      <button onclick="preencherPergunta('Profissões do futuro')">Profissões do futuro</button>
+      <button onclick="preencherPergunta('Automação')">Automação</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
